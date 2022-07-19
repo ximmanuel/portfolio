@@ -1,0 +1,52 @@
+/** Header **/
+
+header {
+    background-color: #1616168c;
+    height: 15vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+header img { margin-left: 100px; }
+
+header h1 {
+    margin-left: 40px;
+    font-size: 35px;
+}
+
+#nav {
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+#nav a {
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #ebf2ff;
+    border-radius: 100px;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+#nav a:hover {
+    transition: all .1s ease-in;
+    background-color: #6681d8;
+    color: #dfe1e6;
+}
+
+#nav i {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+#middle { 
+    padding-left: 100px;
+    padding-right: 100px;
+}
